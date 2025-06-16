@@ -39,12 +39,12 @@ const AddMovie = ({ addM }) => {
 
   const handleAdd = () => {
     const title = titleRef.current.value;
-    const description = descriptionRef.current.value;
+
     const posterURL = posterRef.current.value;
 
     const newMovie = {
       title,
-      description,
+      
       posterURL,
       rating,
     };

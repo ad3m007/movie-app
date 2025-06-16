@@ -3,13 +3,15 @@ const movies =[
   title: "Inception",
   description: "A skilled thief enters people's dreams to steal secrets and plant ideas, but the mission soon turns into a dangerous mind-bending journey.",
   posterURL: "https://th.bing.com/th/id/OIP.fYLXgLBnnbp3N8JCRuUIGAHaLH?rs=1&pid=ImgDetMain",
-  rating: 4
+  rating: 4,
+  trailer:  "https://www.youtube.com/embed/MH3oec2u5gY?si=W8Rhf2PE6K03OHpe"
 },
 {
   title: "The Shawshank Redemption",
   description: "Wrongly convicted of murder, Andy Dufresne befriends a fellow inmate and finds a way to live with hope inside prison walls.",
   posterURL: "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-  rating: 3.5
+  rating: 3.5,
+  trailer:"https://www.youtube.com/embed/h57cdi9O8-k?si=HaKqof6_gfxV0tq7"
 },
 {
   title: "Interstellar",

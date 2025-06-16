@@ -1,6 +1,8 @@
 import Card from "react-bootstrap/Card";
 import "./App.css";
 import ReactStars from "react-stars";
+import { Routes, Route, Link} from "react-router-dom";
+
 
 function Movie({
   title = "unknown",
@@ -9,15 +11,14 @@ function Movie({
   rating = 0,
 }) {
   return (
-    <Card style={{ width: "18rem" }} id="x1">
+           <Link to={`/Description/${title}`}>
+        <Card style={{ width: "18rem" }} id="x1">
       <Card.Img variant="top" src={posterURL} />
       <Card.Body>
         <Card.Title>
           <span style={{ color: "white" }}>{title}</span>
         </Card.Title>
-        <Card.Text>
-          <span style={{ color: "white" }}>{description}</span>
-        </Card.Text>
+     
         <Card.Text>
           <span style={{ color: "white" }}>
             <ReactStars
@@ -30,7 +31,9 @@ function Movie({
           </span>
         </Card.Text>
       </Card.Body>
-    </Card>
+    </Card>     
+       </Link>
+
   );
 }
 
